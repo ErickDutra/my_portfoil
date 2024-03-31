@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 1.5rem;
+    align-items: center;
+    width: 100vw;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10rem;
+    list-style-type:none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    margin: 10rem;
+}

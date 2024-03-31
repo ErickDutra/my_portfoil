@@ -1,0 +1,75 @@
+.image-banner{
+    background-image: url("/assets/background.jpg");
+    background-size:cover ; 
+    background-position: center center;
+    width: 100vw;
+    height: 60vw;
+    background-repeat: no-repeat;
+}
+
+
+.about{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 50vw;
+}
+.about-box{
+    color: whitesmoke;
+    display:flex;
+    height: 90%;
+    width: 90%;
+    flex-direction: row;
+    border-top: 2rem solid rgba(0, 0, 0, 0.452);
+    align-items: center;
+}
+
+
+
+.about-box ul{
+    list-style-type:none;
+}
+
+.about-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+}
+
+.about-intro{
+    position: relative;
+    bottom: 1rem;
+    margin-left: 5rem;
+}
+
+.about-intro h2{
+    font-size: 8rem;
+
+}
+
+.about-text{
+    margin: 5rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.about-contact{
+    margin-left: 5rem;
+}
+
+.about-contact ul{
+    position: relative;
+    left: 10rem;
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+}
+.about-contact ul li{
+    margin: 0 2rem ;
+}
+
+.project{
+    background-color: grey;
+    width: 100vw;
+    height: 50vw;
+}
