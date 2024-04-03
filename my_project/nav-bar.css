@@ -5,23 +5,38 @@
     background-color: rgba(0, 0, 0, 0.445);
     color: whitesmoke;
     justify-content: space-around;
-    padding: 1.5rem;
+    padding: 1rem;
     align-items: center;
     width: 100vw;
+    z-index: 2;
+}
+.navbar h1{
+    font-size: 3rem;
 }
 
 nav ul{
+    position: fixed;
+    top: 0.5rem;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 10rem;
+    width: 5rem;
     list-style-type:none;
 }
 
-nav ul li a{
-    text-decoration: none;
+button{
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
     color: whitesmoke;
     font-size: 1.5rem;
-    margin: 2rem 0;
-    margin: 10rem;
+    margin: 1rem 0;
 }
+
+button:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+

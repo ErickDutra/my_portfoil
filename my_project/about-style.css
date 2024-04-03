@@ -1,18 +1,10 @@
-.image-banner{
-    background-image: url("/assets/background.jpg");
-    background-size:cover ; 
-    background-position: center center;
-    width: 100vw;
-    height: 60vw;
-    background-repeat: no-repeat;
-}
-
 
 .about{
     background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 50vw;
 }
+
 .about-box{
     color: whitesmoke;
     display:flex;
@@ -58,8 +50,8 @@
 }
 
 .about-contact ul{
-    position: relative;
-    left: 10rem;
+    position: absolute;
+    left: 20rem;
     display: flex;
     justify-content: space-around;
     width: 10rem;
@@ -67,6 +59,17 @@
 .about-contact ul li{
     margin: 0 2rem ;
 }
+
+.about-contact img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.about-contact img:hover{
+    width: 6rem;
+    height: 6rem;
+}
+
 
 .project{
     background-color: grey;
