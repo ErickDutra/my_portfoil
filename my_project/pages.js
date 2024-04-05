@@ -71,3 +71,13 @@ async function aboutPage() {
         </div>
     `;
 }
+
+function toggleSidebar() {
+    var sidebar = document.querySelector('.sidebar');
+    var currentWidth = window.getComputedStyle(sidebar).width;
+    if (currentWidth === '250px') {
+        sidebar.style.width = '0';
+    } else {
+        sidebar.style.width = '250px';
+    }
+}
