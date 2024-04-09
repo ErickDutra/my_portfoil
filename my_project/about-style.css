@@ -70,12 +70,3 @@
     height: 6rem;
 }
 
-.project div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 80vh;
-    background-color: #0c0c0c;
-}
