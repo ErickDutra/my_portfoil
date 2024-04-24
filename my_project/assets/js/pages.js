@@ -8,15 +8,15 @@ async function homePage() {
     pages.innerHTML = `
     <div class="image-banner">
         <div class="parallax">
-            <img src="/assets/icon1.png" data-speed="-5"  alt="" class="layer">
-            <img src="/assets/icon2.png" data-speed="5"  alt="" class="layer">
-            <img src="/assets/icon3.png" data-speed="2"  alt="" class="layer">
-            <img src="/assets/icon4.png" data-speed="6"  alt="" class="layer">
-            <img src="/assets/icon5.png" data-speed="-4"  alt="" class="layer">
-            <img src="/assets/icon6.png" data-speed="8"  alt="" class="layer">
-            <img src="/assets/icon7.png" data-speed="3"  alt="" class="layer">
-            <img src="/assets/icon8.png" data-speed="-2"  alt="" class="layer">
-            <img src="/assets/icon9.png" data-speed="2"  alt="" class="layer">
+            <img src="/assets/img/icons/icon1.png" data-speed="-5"  alt="" class="layer">
+            <img src="/assets/img/icons/icon2.png" data-speed="5"  alt="" class="layer">
+            <img src="/assets/img/icons/icon3.png" data-speed="2"  alt="" class="layer">
+            <img src="/assets/img/icons/icon4.png" data-speed="6"  alt="" class="layer">
+            <img src="/assets/img/icons/icon5.png" data-speed="-4"  alt="" class="layer">
+            <img src="/assets/img/icons/icon6.png" data-speed="8"  alt="" class="layer">
+            <img src="/assets/img/icons/icon7.png" data-speed="3"  alt="" class="layer">
+            <img src="/assets/img/icons/icon8.png" data-speed="-2"  alt="" class="layer">
+            <img src="/assets/img/icons/icon9.png" data-speed="2"  alt="" class="layer">
             <div>
                 <h2>I'am</h2>
                 <h2>Software Developer</h2> 
@@ -53,19 +53,19 @@ async function aboutPage() {
                     <div class="about-contact">
                         <ul >
                             <li><a href="">
-                                <img src="/assets/linkedin.svg" alt="">
+                                <img src="/assets/img/icons/linkedin.svg" alt="">
                             </a></li>
                             <li><a href="">
-                                <img src="/assets/gmail.svg" alt="">
+                                <img src="/assets/img/icons/gmail.svg" alt="">
                             </a></li>
                             <li><a href="">
-                                <img src="/assets/github.svg" alt="">
+                                <img src="/assets/img/icons/github.svg" alt="">
                             </a></li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/foto.png" alt="">
+                    <img src="/assets/img/me/foto.png" alt="">
                 </div>
             </div>
         </div>
