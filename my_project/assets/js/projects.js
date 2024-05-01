@@ -15,14 +15,14 @@ async function displayItemCount() {
     const data = await fetchProfileData();
     if (data && data.itens) {
         const boxButtons = document.querySelector('.box-buttons');
-        boxButtons.innerHTML = ''; // Limpa os botões existentes
+        boxButtons.innerHTML = '';
 
         data.itens.forEach((item, index) => {
             const li = document.createElement('li');
             const button = document.createElement('button');
-            button.textContent = index + 1; // Define o texto do botão para o índice + 1
+            button.textContent = index + 1; 
 
-            // Adiciona um evento de clique ao botão para carregar o HTML do projeto
+            
             button.addEventListener('click', () => {
                 loadProjectHTML(item);
             });
@@ -36,20 +36,22 @@ async function displayItemCount() {
 function loadProjectHTML(item) {
     const projectBox = document.querySelector('.project-box');
     projectBox.innerHTML = `
-        <div class="about-information">
-            <div class="about-intro">
-                <h2>
-                    ${item.title}
-                </h2>
-                <p>
-                    ${item.description}
-                </p>
-            </div>
-            <div class="about-text">
-                <p>
-                    ${item.text}
-                </p>
-            </div>
-        </div>`;
+        
+    <img src="${item.imagem}" alt="">
+
+    <div >
+    <h2>${item.title}</h2>  
+    
+ 
+
+    <p>${item.descricao}</p>
+    <a href=""><img src="/assets/img/icons/github.svg" alt="${item.url}"></a>
+    <h3>Ferramentas:</h3>
+    <ul>
+        <li><img src="/assets/img/tools/python.svg" alt="python--v1"/></li>
+    </ul>
+   </div>
+   `;
 }
+
 displayItemCount();

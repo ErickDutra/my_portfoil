@@ -1,0 +1,31 @@
+{
+    "name": "Erick Dutra",
+    "location": "Vila Velha - ES",
+    "linkedin": "https://www.linkedin.com/in/erick-dutra-916217211/",
+    "email": "deverickdutra@gmail.com",
+
+    "itens": [
+      {
+        "title": "Login Netflix",
+        "url": "https://github.com/ErickDutra/Copia_login_Netflix",
+        "imagem": "./assets/img/projects/netflix.svg",
+        "descricao": "Projeto elaborado em HTML e CSS, com o propósito de praticar e aprimorar os conhecimentos adquiridos.",
+        "ferramentas": []
+      },
+      {
+        "title": " Calculadora",
+        "url": "https://github.com/ErickDutra/calculadora_pyside",
+        "imagem": "./assets/img/projects/calculadora.svg",
+        "descricao": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado.",
+        "ferramentas": []
+      },
+      {
+        "title": " Stock App",
+        "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
+        "imagem": "./assets/img/projects/stock.png",
+        "descricao": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque .",
+        "ferramentas": []
+      }
+    ]
+    
+  }
