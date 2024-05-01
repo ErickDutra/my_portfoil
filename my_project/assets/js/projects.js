@@ -1,6 +1,6 @@
 async function fetchProfileData() {
     try {
-        const response = await fetch('url-do-seu-endpoint');
+        const response = await fetch('https://raw.githubusercontent.com/ErickDutra/New_repository/main/assets/data/profile.json');
         if (!response.ok) {
             throw new Error('Erro ao buscar os dados do perfil');
         }
@@ -9,18 +9,6 @@ async function fetchProfileData() {
         console.error('Erro ao buscar os dados do perfil:', error);
         return null;
     }
-}
-
-function loadProjectHTML(index) {
-    // Supondo que você tenha um array com o HTML de cada projeto
-    const projectsHTML = [
-        '<div>Projeto 1 HTML...</div>',
-        '<div>Projeto 2 HTML...</div>',
-        // ...
-    ];
-
-    const projectBox = document.querySelector('.project-box');
-    projectBox.innerHTML = projectsHTML[index];
 }
 
 async function displayItemCount() {
@@ -36,7 +24,7 @@ async function displayItemCount() {
 
             // Adiciona um evento de clique ao botão para carregar o HTML do projeto
             button.addEventListener('click', () => {
-                loadProjectHTML(index);
+                loadProjectHTML(item);
             });
 
             li.appendChild(button);
@@ -45,4 +33,23 @@ async function displayItemCount() {
     }
 }
 
+function loadProjectHTML(item) {
+    const projectBox = document.querySelector('.project-box');
+    projectBox.innerHTML = `
+        <div class="about-information">
+            <div class="about-intro">
+                <h2>
+                    ${item.title}
+                </h2>
+                <p>
+                    ${item.description}
+                </p>
+            </div>
+            <div class="about-text">
+                <p>
+                    ${item.text}
+                </p>
+            </div>
+        </div>`;
+}
 displayItemCount();
