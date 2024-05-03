@@ -1,6 +1,6 @@
 async function fetchProfileData() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/ErickDutra/New_repository/main/assets/data/profile.json');
+        const response = await fetch('https://raw.githubusercontent.com/ErickDutra/my_portfoil/main/my_project/assets/data/data.json');
         if (!response.ok) {
             throw new Error('Erro ao buscar os dados do perfil');
         }
@@ -44,7 +44,7 @@ function loadProjectHTML(item) {
     
  
 
-    <p>${item.descricao}</p>
+    <p>${item.description}</p>
     <a href=""><img src="/assets/img/icons/github.svg" alt="${item.url}"></a>
     <h3>Ferramentas:</h3>
     <ul>

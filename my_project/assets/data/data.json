@@ -16,7 +16,7 @@
         "title": " Calculadora",
         "url": "https://github.com/ErickDutra/calculadora_pyside",
         "imagem": "./assets/img/projects/calculadora.svg",
-        "descpription": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado.",
+        "description": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado.",
         "ferramentas": ["Python"]
       },
       {
