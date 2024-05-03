@@ -9,7 +9,7 @@
         "title": "Login Netflix",
         "url": "https://github.com/ErickDutra/Copia_login_Netflix",
         "imagem": "./assets/img/projects/netflix.svg",
-        "descpription": "Projeto elaborado em HTML e CSS, com o propósito de praticar e aprimorar os conhecimentos adquiridos.",
+        "description": "Projeto elaborado em HTML e CSS, com o propósito de praticar e aprimorar os conhecimentos adquiridos.",
         "ferramentas": ["HTML", "CSS"]
       },
       {
@@ -23,14 +23,14 @@
         "title": " Stock App",
         "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
         "imagem": "./assets/img/projects/stock.png",
-        "descpription": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque .",
+        "description": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque .",
         "ferramentas": ["Dart", "Flutter"]
       },
       {
         "title": "Spotfy Clone",
         "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
         "imagem": "./assets/img/projects/stock.png",
-        "descpription": "Projeto desenvolvido em Flutter e Dart para pratica de habilidades.",
+        "description": "Projeto desenvolvido em Flutter e Dart para pratica de habilidades.",
         "ferramentas": ["Dart", "Flutter"]
       }
     ]
