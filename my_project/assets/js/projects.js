@@ -48,7 +48,7 @@ function loadProjectHTML(item) {
     <a href=""><img src="/assets/img/icons/github.svg" alt="${item.url}"></a>
     <h3>Ferramentas:</h3>
     <ul>
-        <li><img src="/assets/img/tools/python.svg" alt="python--v1"/></li>
+    ${item.ferramentas.map(ferramenta => `<li><p>${ferramenta}</p></li>`).join('')}
     </ul>
    </div>
    `;

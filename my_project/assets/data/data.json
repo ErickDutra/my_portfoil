@@ -10,28 +10,28 @@
         "url": "https://github.com/ErickDutra/Copia_login_Netflix",
         "imagem": "./assets/img/projects/netflix.svg",
         "descpription": "Projeto elaborado em HTML e CSS, com o propósito de praticar e aprimorar os conhecimentos adquiridos.",
-        "ferramentas": ["./assets/img/icons/html.svg", "./assets/img/icons/css.svg"]
+        "ferramentas": ["HTML", "CSS"]
       },
       {
         "title": " Calculadora",
         "url": "https://github.com/ErickDutra/calculadora_pyside",
         "imagem": "./assets/img/projects/calculadora.svg",
         "descpription": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado.",
-        "ferramentas": ["./assets/img/icons/python.svg"]
+        "ferramentas": ["Python"]
       },
       {
         "title": " Stock App",
         "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
         "imagem": "./assets/img/projects/stock.png",
         "descpription": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque .",
-        "ferramentas": ["./assets/img/icons/dart.svg", "./assets/img/icons/flutter.svg"]
+        "ferramentas": ["Dart", "Flutter"]
       },
       {
         "title": "Spotfy Clone",
         "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
         "imagem": "./assets/img/projects/stock.png",
         "descpription": "Projeto desenvolvido em Flutter e Dart para pratica de habilidades.",
-        "ferramentas": ["./assets/img/icons/dart.svg", "./assets/img/icons/flutter.svg"]
+        "ferramentas": ["Dart", "Flutter"]
       }
     ]
     
