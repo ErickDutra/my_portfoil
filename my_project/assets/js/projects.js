@@ -39,17 +39,25 @@ function loadProjectHTML(item) {
         
     <img src="${item.imagem}" alt="">
 
-    <div >
+    <div class="about-project" >
     <h2>${item.title}</h2>  
     
  
 
     <p>${item.description}</p>
-    <a href=""><img src="/assets/img/icons/github.svg" alt="${item.url}"></a>
+
+
+    <div class="button-git">
+    <a href="">
+    <p>GitHub</p>
+    <img src="/assets/img/icons/github.svg" alt="${item.url}">
+    </a>
+</div>
     <h3>Ferramentas:</h3>
     <ul>
     ${item.ferramentas.map(ferramenta => `<li><p>${ferramenta}</p></li>`).join('')}
     </ul>
+    
    </div>
    `;
 }
